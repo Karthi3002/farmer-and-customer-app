@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Farmerandcustomerapp.PaymentPage"
+             BackgroundColor="#F5F5DC"
+             Title="Payment">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="Payment Details" FontSize="24" TextColor="#8B4513" HorizontalOptions="Center"/>
+        <Entry x:Name="cardNumberEntry" Placeholder="Card Number" PlaceholderColor="#A9A9A9" TextColor="Black" Keyboard="Numeric"/>
+        <Entry x:Name="cardHolderNameEntry" Placeholder="Card Holder Name" PlaceholderColor="#A9A9A9" TextColor="Black"/>
+        <Entry x:Name="expiryDateEntry" Placeholder="Expiry Date (MM/YY)" PlaceholderColor="#A9A9A9" TextColor="Black" Keyboard="Numeric"/>
+        <Entry x:Name="cvvEntry" Placeholder="CVV" PlaceholderColor="#A9A9A9" TextColor="Black" Keyboard="Numeric" IsPassword="True"/>
+        <Button Text="Submit" BackgroundColor="#8B4513" TextColor="White" Clicked="OnSubmitButtonClicked"/>
+    </StackLayout>
+</ContentPage>

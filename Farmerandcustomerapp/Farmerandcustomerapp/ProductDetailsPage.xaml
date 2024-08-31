@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Farmerandcustomerapp.ProductDetailsPage"
+             BackgroundColor="#FFF0F5"
+             Title="Product Details">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label x:Name="productNameLabel" FontSize="24" TextColor="#DB7093" HorizontalOptions="Center"/>
+        <Label x:Name="productPriceLabel" FontSize="20" TextColor="#DB7093" HorizontalOptions="Center"/>
+        <Label x:Name="productQuantityLabel" FontSize="20" TextColor="#DB7093" HorizontalOptions="Center"/>
+        <Button Text="Purchase" BackgroundColor="#DB7093" TextColor="White" Clicked="OnPurchaseButtonClicked"/>
+    </StackLayout>
+</ContentPage>

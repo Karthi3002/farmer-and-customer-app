@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Farmerandcustomerapp.FarmerLoginPage"
+             BackgroundColor="#F0F8FF"
+             Title="Farmer Login">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="Farmer Login" FontSize="24" TextColor="#4682B4" HorizontalOptions="Center"/>
+        <Entry x:Name="emailEntry" Placeholder="Email" PlaceholderColor="#A9A9A9" TextColor="Black"/>
+        <Entry x:Name="passwordEntry" Placeholder="Password" PlaceholderColor="#A9A9A9" IsPassword="True" TextColor="Black"/>
+        <Button Text="Login" BackgroundColor="#4682B4" TextColor="White" Clicked="OnLoginButtonClicked"/>
+    </StackLayout>
+</ContentPage>

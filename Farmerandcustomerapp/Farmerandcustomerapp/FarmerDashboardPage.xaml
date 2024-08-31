@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Farmerandcustomerapp.FarmerDashboardPage"
+             BackgroundColor="#E6E6FA"
+             Title="Farmer Dashboard">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="Farmer Dashboard" FontSize="28" TextColor="#6A5ACD" HorizontalOptions="Center"/>
+        <Button Text="Update and Sell Products" BackgroundColor="#6A5ACD" TextColor="White" Clicked="OnUpdateAndSellProductsClicked"/>
+        <Button Text="View Sales History" BackgroundColor="#6A5ACD" TextColor="White" Clicked="OnViewSalesHistoryClicked"/>
+        <Button Text="QR Code Functionalities" BackgroundColor="#6A5ACD" TextColor="White" Clicked="OnQRCodeFunctionalitiesClicked"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Farmerandcustomerapp.ConfirmationPage"
+             BackgroundColor="#F0E68C"
+             Title="Confirmation">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20">
+        <Label Text="Transaction Successful!" FontSize="24" TextColor="#B8860B" HorizontalOptions="Center"/>
+        <Label Text="Thank you for your purchase." FontSize="20" TextColor="#B8860B" HorizontalOptions="Center"/>
+        <Button Text="Back to Dashboard" BackgroundColor="#B8860B" TextColor="White" Clicked="OnBackToDashboardClicked"/>
+    </StackLayout>
+</ContentPage>
